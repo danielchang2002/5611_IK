@@ -30,6 +30,9 @@ Click [here](https://youtu.be/gtZkAkhACsc) to watch the demo video!
 The only downside is that it is quite time intensive.
 The smoothness of the animation heavily depends on the number of random joint set iterations that you test (shown near the end of the video)
 I had to play around with the smoothing parameters (like joint angle acceleration cap) 
+  - Random search is flexible, as it has no limitations in the spaces in the angle set search space it can explore. Obviously, how comprehensive the search is depends on the iteration count again.
+  - Both methods support constraints well, as you can easily clamp angle values to predetermined limits.
+
 
 ### Technologies used:
 - Processing (Java)
